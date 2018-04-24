@@ -1,0 +1,22 @@
+{
+    "name": "frontend-bases",
+    "version": "1.0.0",
+    "description": "first steps in organisation frontend aplication",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grygoriy-pinkas/React-first-pitch.git"
+    },
+    "keywords": [
+        "frontend"
+    ],
+    "author": "Grisha.P",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/grygoriy-pinkas/React-first-pitch/issues"
+    },
+    "homepage": "https://github.com/grygoriy-pinkas/React-first-pitch#readme"
+}
