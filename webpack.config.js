@@ -15,12 +15,15 @@ module.exports = {
     module: {
         rules: [{
             test: /\.less$/,
-            loader: 'less-loader' // compiles Less to CSS
+            use: [{
+                loader: 'style-loader' // creates style nodes from JS strings
+            }, {
+                loader: 'css-loader' // translates CSS into CommonJS
+            }, {
+                loader: 'less-loader' // compiles Less to CSS
+            }]
         }]
-    }
+    },
+    mode: 'none'
+        // plugins: []
 };
-
-module.exports = {
-    mode: 'none',
-    plugins: []
-}
