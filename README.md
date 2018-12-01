@@ -1,1 +1,1 @@
-# React-first-pitch
+# Frontend-aplication-structure first pitch
